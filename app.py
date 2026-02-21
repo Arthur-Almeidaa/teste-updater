@@ -12,7 +12,7 @@ import tkinter as tk
 #   (depois suba o arquivo novo no GitHub e
 #    atualize a versão no version.json)
 # =============================================
-APP_VERSION = "2.0.0"
+APP_VERSION = "3.0.0"
 
 
 def main():
@@ -20,7 +20,7 @@ def main():
     root.title(f"Meu App  v{APP_VERSION}")
     root.geometry("400x300")
     root.resizable(False, False)
-    root.configure(bg="#1e1e2e")
+    root.configure(bg="#ffffff")
 
     # Título
     tk.Label(
