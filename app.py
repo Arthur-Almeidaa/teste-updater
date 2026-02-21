@@ -53,6 +53,20 @@ def main():
         command=lambda: print("Botão 1 clicado!")
     ).pack(pady=20)
 
+    # ── BOTÃO 2 — descomente na v2.0.0 ──────────
+    tk.Button(
+         root,
+         text="🟣  Botão Novo (v2.0.0)",
+         font=("Segoe UI", 11),
+         bg="#cba6f7",
+         fg="#1e1e2e",
+         relief="flat",
+         padx=20,
+         pady=8,
+        cursor="hand2",
+     command=lambda: print("Botão 2 clicado!")
+    ).pack(pady=5)
+
     root.mainloop()
 
 
