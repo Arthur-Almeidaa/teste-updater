@@ -12,7 +12,7 @@ import tkinter as tk
 #   (depois suba o arquivo novo no GitHub e
 #    atualize a versão no version.json)
 # =============================================
-APP_VERSION = "4.0.0"
+APP_VERSION = "5.0.0"
 
 
 def main():
